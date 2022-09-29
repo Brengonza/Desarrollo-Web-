@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    max-width: 1300;
+    background-color: #7691A6;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: #D5D5D6;
+}
+
+.container-fluid a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: #7691A6;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.navbar-nav li {
+    margin-right: 0;
+}
+
+.navbar-nav  li:hover {
+    border: none #7691A6 1px solid;
+    background-color: #7691A6;
+ }
+
+ .navbar-nav a:hover {
+    color: #D5D5D6;
+ }
+ 
+
+.carousel-inner {
+    max-height: 35rem;
+}
+
+.carousel-botton {
+    color: black;
+}
+
+.card-body {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.realestate {
+    padding: 10;
+
+}
+.card {
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+.col-md-8 {
+    background-color: #7691A6;
+}
+
+.card-body a {
+    text-decoration: none;
+    background-color: #D5D5D6;
+    color: #33338896;
+    padding: 5px 5px;
+    border-radius: 8px;
+}
+
+.card-body a:hover {
+    text-decoration: none;
+    background-color: #333388;
+    color: #D5D5D6;
+    padding: 5px 5px;
+    border-radius: 8px;
+}
+
+
+.tittle-section {
+    text-align: center;
+    color: #D5D5D6;
+    padding: 10px;
+}
+
+.card-text {
+    font-size: 10px;
+    color: #333388;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #333388;
+}
+.card-botton-text {
+    background-color: #D5D5D6;
+    font-size: 20px;
+}
+
+.card-botton-text:hover {
+    background-color: #333388;
+    font-size: 20px;
+}
+
+.titulo_servicios {
+    font-size: 30px;
+    text-align: center;
+    color: #D5D5D6;
+    padding: 10px;
+}
+
+
+.section-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-servicios p {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333388;
+}
+
+.titulo-servicios {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333388;
+}
+
+.servicios1 {
+    padding: 10px 10px 10px 10px;
+    border-right: 1px  solid #333388;
+}
+
+.titulo-servicios {
+    text-align: center;
+}
+
+.servicios2 {
+    padding: 10px 10px 10px 10px;
+    border-right: 1px solid #333388;
+}
+.servicios3 {
+    padding: 10px 10px 10px 10px;
+}
+
+.separador1 {
+    color: #D5D5D6;
+}
+
+
+
+.card-body-preconstruccion {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding: 0;
+}
+
+.card-title-preconstruccion {
+    text-align: center;
+    color: #D5D5D6;
+    padding: 10px;
+}
+
+.card-text-preconstruccion {
+    font-size: 15px;
+    color: #333388;
+    text-align: center;
+    border-left: 1px solid #333388;
+}
+
+.card-body-preconstruccion a {
+    text-decoration: none;
+    background-color: #D5D5D6;
+    color: #333388;
+    padding: 5px 5px;
+    border-radius: 2px;
+}
+
+.card-body-preconstruccion a:hover {
+    text-decoration: none;
+    background-color: #333388;
+    color: #D5D5D6;
+    padding: 5px 5px;
+    border-radius: 2px;
+} 
+
+.card-img-bottom {
+    width: 60%;
+    height: 40%;
+}
+
+.seccionblog {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.titulo-sectionblog {
+    font-size: 20px;
+    text-align: center;
+    color: #D5D5D6;
+    padding: 10px;
+}
+
+
+.slider-blog {
+    display: flex;
+    flex-direction: column;
+    justify-items:auto;
+    align-items: center;
+    width: 90%;
+    overflow-y:auto;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+
+}
+.tarjeta__imagenes {
+    width: 150px;
+    height: 150px;
+}
+
+.tarjeta a{
+    text-decoration: none;
+    background-color: #D5D5D6;
+    color: #333388;
+    border-radius: 2px;
+}
+
+.tarjeta a:hover {
+    text-decoration: none;
+    background-color: #333388;
+    color: #D5D5D6;
+    padding: 5px 5px;
+    border-radius: 2px;
+} 
+
+.tarjeta__titulo {
+    font-size: 22px;
+    text-align: center;
+    color: #333388;
+}
+
+.text-tajeta {
+    font-size: 15px;
+    color: #333388;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.seccion-miami {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.tittle-seccion-miami {
+    text-align: center;
+    color: #D5D5D6;
+    padding: 10px;
+}
+
+.text-seccion-miami {
+    font-size: 20px;
+    color: #333388;
+    text-align: center;
+}
+
+.video-seccion-miami {
+    width:  70%;
+    height: 40%;
+
+}
+
+.footer-container-fluid {
+    background-color: #D5D5D6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.texto-footer {
+    color: #7691A6;
+    font-weight: bold;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.icon-redes {
+   padding: 10px;
+}
+
+
+
+@media (min-width: 768px) {
+    .card-body {
+        justify-content:space-between;
+
+    }
+    .card-body a {
+        align-items: flex-end;
+        padding: 10px 15px;
+        border-radius: 8px;
+    }
+
+    .card-text {
+        font-size: 20px;
+        color: #333388;
+    }
+
+    .card-title {
+        font-size: 30px;
+    }
+    .card-body-preconstruccion {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .section-servicios p {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        color: #333388;
+    
+    }
+
+    .card-body {
+        border: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .slider-blog {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .titulo-sectionblog {
+        font-size: 30px;
+        text-align: center;
+        color: #D5D5D6;
+        padding: 10px;
+    }
+
+    .text-tajeta {
+        font-size: 22px;
+        color: #333388;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    
+}
